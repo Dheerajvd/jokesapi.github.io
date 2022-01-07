@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@200;400;500;600&display=swap');
+
+html{
+    font-size: 62.5%;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+
+body{
+    background-color: #067caa;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container{
+    width: 70rem;
+    height: 20rem;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 1rem 1rem 0.2rem rgba(0, 0, 0, 0.4);
+    border-radius: 1.5rem;
+}
+
+.container h3{
+    font-size: 2.5rem;
+    word-spacing: 0.4rem;
+}
+
+.container .joke{
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.2rem;
+    margin-bottom: 2rem;
+    padding: 0.5rem;
+}
+
+.container .next{
+    border: none;
+    outline: none;
+    background-color: #088dc2;
+    height: 3.5rem;
+    width: 12rem;
+    margin-bottom: 2rem;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    border-radius: 0.8rem;
+}
+
+.next:hover{
+    background-color: #05719c;
+}
